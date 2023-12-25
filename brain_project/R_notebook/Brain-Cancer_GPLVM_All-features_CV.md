@@ -123,7 +123,7 @@ paste0("Mean Specificity : ", round(mean(specificity)*100,1), " (±", round(sd(s
 
 ``` r
 paste0("Accuracy 95% CI: [", round(quantile(accuracy, probs = c(0.025, 0.975))[1]*100, 1), " ; ", round(quantile(accuracy, probs = c(0.025, 0.975))[2]*100, 1),"]")
-paste0("Balanced accuracy 95% CI: [", round(quantile(balanced_accuracy, probs = c(0.025, 0.975))[1]*100, 1), " ; ", round(quantile(balanced_accuracy, probs = c(0.025, 0.975))[2]**100, 1),"]")
+paste0("Balanced accuracy 95% CI: [", round(quantile(balanced_accuracy, probs = c(0.025, 0.975))[1]*100, 1), " ; ", round(quantile(balanced_accuracy, probs = c(0.025, 0.975))[2]*100, 1),"]")
 paste0("Precision 95% CI: [", round(quantile(precision, probs = c(0.025, 0.975))[1]*100, 1), " ; ",round(quantile(precision, probs = c(0.025, 0.975))[2]*100, 1),"]")
 paste0("Recall 95% CI: [", round(quantile(recall, probs = c(0.025, 0.975))[1]*100, 1), " ; ", round(quantile(recall, probs = c(0.025, 0.975))[2]*100, 1),"]")
 paste0("F1 score 95% CI: [", round(quantile(f1_score, probs = c(0.025, 0.975))[1]*100, 1), " ; ", round(quantile(f1_score, probs = c(0.025, 0.975))[2]*100, 1),"]")
@@ -132,7 +132,7 @@ paste0("Specificity 95% CI: [", round(quantile(specificity, probs = c(0.025, 0.9
 ```
 
     ## [1] "Accuracy 95% CI: [40.1 ; 63]"
-    ## [1] "Balanced accuracy 95% CI: [37.6 ; 0]"
+    ## [1] "Balanced accuracy 95% CI: [37.6 ; 55.2]"
     ## [1] "Precision 95% CI: [47.1 ; 61.5]"
     ## [1] "Recall 95% CI: [56.6 ; 99.4]"
     ## [1] "F1 score 95% CI: [51.2 ; 76]"
