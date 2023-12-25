@@ -128,7 +128,7 @@ paste0("Mean Specificity : ", round(mean(specificity)*100,1), " (", round(sd(spe
     ## [1] "Mean ROC AUC : 93.7 (7.8)"
     ## [1] "Mean Specificity : 89.2 (9.1)"
 
-# 4. Compute the 95% Confidence Intervall
+# 4. Compute the 95% Confidence Interval
 
 ``` r
 paste0("Accuracy 95% CI: [", round(quantile(accuracy, probs = c(0.025, 0.975))[1], 3), " ; ", round(quantile(accuracy, probs = c(0.025, 0.975))[2], 3),"]")
