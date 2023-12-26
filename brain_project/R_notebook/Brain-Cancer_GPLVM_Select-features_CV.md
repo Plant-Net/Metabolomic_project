@@ -100,11 +100,6 @@ for (i in 1:k_folds) {
   res.roc <- roc(test_data[, 1], posterior[,2])
   # ROC AUC
   roc_auc[i] <- auc(res.roc)[1]
-  
-  pdf(paste0("fold",i,"_roc_curve.pdf"))
-  plot.roc(res.roc, print.auc = TRUE)
-  dev.off()
-  
 }
 ```
 
