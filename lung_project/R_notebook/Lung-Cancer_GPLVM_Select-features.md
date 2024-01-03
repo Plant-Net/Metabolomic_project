@@ -1,4 +1,4 @@
-Lung Cancer: Gaussian processes (GPLVM) on selected features
+Lung Cancer: Run Gaussian processes (GPLVM) on selected features
 ================
 
 ### Load libraries

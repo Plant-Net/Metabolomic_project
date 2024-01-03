@@ -1,5 +1,5 @@
 ---
-title: "Lung Cancer: Gaussian processes (GPLVM) on selected features"
+title: "Lung Cancer: Run Gaussian processes (GPLVM) on selected features"
 output: github_document
 ---
 

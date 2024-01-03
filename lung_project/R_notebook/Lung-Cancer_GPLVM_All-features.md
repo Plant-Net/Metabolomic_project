@@ -1,4 +1,4 @@
-Lung Cancer: Gaussian processes (GPLVM) on all features
+Lung Cancer: Run Gaussian processes (GPLVM) on all features
 ================
 
 ### Load libraries
@@ -11,7 +11,7 @@ library(pROC)
 ### Load data
 
 ``` r
-lung_data <- as.matrix(read.csv("/Users/justine_labory/Desktop/These_ANR/Latent_space_metabolomics/lung_project/LUNG.ALL.FEAT.csv"))
+lung_data <- as.matrix(read.csv("/Users/justine_labory/Desktop/github/plantnet/Metabolomic_project/lung_project/data/LUNG.ALL.FEAT.csv"))
 ```
 
 # 1. Run GPLVM

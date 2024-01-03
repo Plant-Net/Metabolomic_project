@@ -1,12 +1,11 @@
 ---
-title: "Lung Cancer: Gaussian processes (GPLVM) on all features"
+title: "Lung Cancer: Run Gaussian processes (GPLVM) on all features"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 rm(list = ls())
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(root.dir = "/Users/justine_labory/Desktop/These_ANR/Latent_space_metabolomics/lung_project/gplvm/all_features/")
 ```
 
 ### Load libraries
@@ -19,7 +18,7 @@ library(pROC)
 ### Load data
 
 ```{r}
-lung_data <- as.matrix(read.csv("/Users/justine_labory/Desktop/These_ANR/Latent_space_metabolomics/lung_project/LUNG.ALL.FEAT.csv"))
+lung_data <- as.matrix(read.csv("/Users/justine_labory/Desktop/github/plantnet/Metabolomic_project/lung_project/data/LUNG.ALL.FEAT.csv"))
 ```
 
 # 1. Run GPLVM
