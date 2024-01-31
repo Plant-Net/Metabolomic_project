@@ -152,7 +152,7 @@ lines(density(control_data), col="blue")
 ``` r
 sub_feat_breast_data = cbind(Label=breast_data[,1], breast_data[, kept_feat])
 dim(sub_feat_breast_data)
-#write.csv(sub_feat_brain_data, "Metabolomic_project/breast_project/data/BREAST_T.Feat.Select.csv", row.names = F)
+#write.csv(sub_feat_breast_data, "Metabolomic_project/breast_project/data/BREAST_T.Feat.Select.csv", row.names = F)
 ```
 
     ## [1] 271  53
